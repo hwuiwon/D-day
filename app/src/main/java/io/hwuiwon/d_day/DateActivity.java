@@ -30,8 +30,12 @@ public class DateActivity extends AppCompatActivity {
         DatePickerDialog.OnDateSetListener onDateSetListener =
                 (datePicker, year, month, day) -> {
                     String tmp;
-                    if (day / 10 < 1) {
+                    if (day / 10 < 1 && month / 10 < 1) {
+                        tmp = year + "0" + (month + 1) + "0" + day;
+                    } else if (day / 10 < 1 && month / 10 >= 1){
                         tmp = year + "" + (month + 1) + "0" + day;
+                    } else if (day / 10 >= 1 && month / 10 < 1) {
+                        tmp = year + "0" + (month + 1) + "" + day;
                     } else {
                         tmp = year + "" + (month + 1) + "" + day;
                     }
