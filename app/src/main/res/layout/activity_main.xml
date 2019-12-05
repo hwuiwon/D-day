@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/mainTitle"
             android:layout_centerHorizontal="true"
-            android:paddingTop="190dp"
+            android:paddingTop="180dp"
             android:text="@string/sampleTitle"
             android:textColor="@android:color/white"
             android:fontFamily="@font/bigjohnpro"

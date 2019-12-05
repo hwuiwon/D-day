@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         if (settings.getBoolean("hasSave", false)) {
             binding.eventTitle.setText(settings.getString("title", ""));
             binding.dateFromTo.setText(settings.getString("date", ""));
-            binding.dDate.setText(settings.getString("dDate", ""));
+            binding.dDate.setText(settings.getString("dDay", ""));
             progressBar.setProgressWithAnimation(
                     settings.getFloat("percentage", 0), (long) 2000);
         }
