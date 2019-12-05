@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">D-Date</string>
+    <string name="appTitle">D-Date Calculator</string>
+    <string name="sampleTitle">No Event</string>
+    <string name="sampleDate">D-0</string>
+    <string name="dateFrom">0000&#8211;00&#8211;00 ~ 0000&#8211;00&#8211;00</string>
+    <string name="editEvent">Edit Event</string>
+    <string name="eventName">Name of the Event</string>
+    <string name="startDate">Start Date</string>
+    <string name="endDate">End Date</string>
+    <string name="save">Save</string>
+    <string name="christmas">20191225</string>
+    <string name="dateForm">%1$d-%2$d-%3$d ~ %4$d-%5$d-%6$d</string>
+    <string name="dDayForm">D-%1$d</string>
+</resources>
